@@ -12,13 +12,12 @@ html, body {
 
 main {
     width: 100%;
-    height: auto;
     background-color:  black;
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    section {
+    section#view1 {
         padding: 1rem;
         width: 100%;
         display: flex;
@@ -87,12 +86,23 @@ main {
 
     
     }
+
+    section#view2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        color: white;
+
+        #top {
+
+        }
+    }
 }
 
 @media (min-width: 900px) {
     main {
 
-        section {
+        section#view1 {
             flex-direction: row;
             
 
@@ -102,13 +112,13 @@ main {
 
             #bottom {
                 width: 100%;
-                padding: 3rem;
+                padding: 4rem;
                 justify-content: space-between;
                 
                 #texts {
 
                     h1{
-                        font-size: 3rem;
+                        font-size: 4.5rem;
                     }
                     p {
                         font-size: 1.5rem;
