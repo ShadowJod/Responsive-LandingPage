@@ -497,6 +497,7 @@ main section#view6 #bottom #bttns i {
     padding: 1rem;
     background-color: #292929;
     border-radius: 0.7rem;
+    display: block;
   }
   main nav #tags #icon {
     display: none;
@@ -507,6 +508,7 @@ main section#view6 #bottom #bttns i {
     border-radius: 0.7rem;
     border: none;
     outline: none;
+    display: block;
   }
   main section#view1 {
     flex-direction: row;
