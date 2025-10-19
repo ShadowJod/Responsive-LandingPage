@@ -557,7 +557,12 @@ main footer #foot1 #content #icons i {
   border-radius: 50%;
   gap: 1rem;
 }
-main footer #foot2 {
+main footer #cover {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main footer #cover #foot2 {
   background-color: #292929;
   border-radius: 0.7rem;
   padding: 2rem;
@@ -566,22 +571,22 @@ main footer #foot2 {
   flex-direction: column;
   gap: 4rem;
 }
-main footer #foot2 #content1 {
+main footer #cover #foot2 #content1 {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
-main footer #foot2 #content1 h3 {
+main footer #cover #foot2 #content1 h3 {
   font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: 100;
 }
-main footer #foot2 #content1 p {
+main footer #cover #foot2 #content1 p {
   text-transform: uppercase;
   opacity: 0.6;
 }
-main footer #foot2 #content1 button {
+main footer #cover #foot2 #content1 button {
   width: -moz-fit-content;
   width: fit-content;
   background-color: #AD9D49;
@@ -592,37 +597,37 @@ main footer #foot2 #content1 button {
   border-radius: 0.7rem;
   text-transform: uppercase;
 }
-main footer #foot2 #content2 {
+main footer #cover #foot2 #content2 {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
-main footer #foot2 #content2 h3 {
+main footer #cover #foot2 #content2 h3 {
   font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: 100;
 }
-main footer #foot2 #content2 p {
+main footer #cover #foot2 #content2 p {
   text-transform: uppercase;
   opacity: 0.6;
 }
-main footer #foot2 #content3 {
+main footer #cover #foot2 #content3 {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
-main footer #foot2 #content3 h3 {
+main footer #cover #foot2 #content3 h3 {
   font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: 100;
 }
-main footer #foot2 #content3 p {
+main footer #cover #foot2 #content3 p {
   text-transform: uppercase;
   opacity: 0.6;
 }
-main footer #foot3 {
+main footer #cover #foot3 {
   background-color: #292929;
   padding: 2rem;
   color: white;
@@ -633,20 +638,20 @@ main footer #foot3 {
   flex-direction: column;
   gap: 2rem;
 }
-main footer p {
+main footer #cover p {
   opacity: 0.8;
   word-spacing: 0.5rem;
   line-height: 1.5;
   color: rgb(230, 230, 230);
 }
-main footer span {
+main footer #cover span {
   text-decoration: underline;
   color: white;
 }
-main footer h4 {
+main footer #cover h4 {
   word-spacing: 0.5rem;
 }
-main footer h4 i {
+main footer #cover h4 i {
   font-size: 1.5rem;
   background-color: rgba(187, 187, 187, 0.375);
   padding: 0.5rem;
@@ -784,5 +789,30 @@ main footer h4 i {
     height: -moz-fit-content;
     height: fit-content;
     align-self: flex-end;
+  }
+  main footer {
+    flex-direction: row;
+    width: 100%;
+  }
+  main footer #foot1 {
+    width: 25%;
+  }
+  main footer #foot1 #content {
+    display: flex;
+    flex-direction: column;
+    gap: 23rem;
+  }
+  main footer #cover {
+    width: 100%;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  main footer #cover #foot2 {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  main footer #cover #foot3 {
+    flex-direction: row;
+    justify-content: space-between;
   }
 }/*# sourceMappingURL=style.css.map */
