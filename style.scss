@@ -24,6 +24,7 @@ main {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            max-width: 2000px;
 
             .img {
 
@@ -44,7 +45,7 @@ main {
                     background-color: #292929;
                     border-radius: 0.7rem;
                     display: block;
-                    font-size: 1.3rem;
+                    font-size: 1.1rem;
                 }
 
                 a{
@@ -69,6 +70,7 @@ main {
         right:2rem;
         bottom: 2rem;
         z-index: 100;
+        max-width: 2000px;
 
         button{
             background-color: rgb(218, 216, 216);
@@ -161,6 +163,7 @@ main {
         font-family: Arial, Helvetica, sans-serif;
         gap: 1.5rem;
         padding: 1.5rem 1rem;
+        max-width: 2000px;
 
         #top {
             width: 100%;
@@ -331,6 +334,7 @@ main {
         padding: 1rem 1rem 1rem 1rem;
         display: flex;
         flex-direction: column;
+        max-width: 2000px;
 
         p{
             color: white;
@@ -509,6 +513,7 @@ main {
         flex-direction: column;
         gap: 0.6rem;
         font-family: Arial, Helvetica, sans-serif;
+        max-width: 2000px;
 
         #top{
             width: 100%;
@@ -566,6 +571,209 @@ main {
 
         }
     }
+
+    #miniview{
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        
+        #content{
+            background-color: #CEBD63;
+            border-radius: 0.7rem;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            
+            p{
+                font-family: Arial, Helvetica, sans-serif;
+                opacity: 0.7;
+            }
+
+            #textbttn{
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+
+                h2{
+                    font-size: 3rem;
+                    font-weight: 300;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+
+                button{
+                    background-color: black;
+                    color:white;
+                    border: none;
+                    outline: none;
+                    padding: 1rem;
+                    border-radius: 0.7rem;
+                    font-size: 1.1rem;
+                    word-spacing: 0.7rem;
+
+                    i{
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+    }
+
+    footer{
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        #foot1{
+            background-color: #292929;
+            padding: 2rem;
+            border-radius: 0.7rem;
+            #content{
+                display: flex;
+                flex-direction: column;
+                gap:5rem;
+                color: white;
+                p{
+                    font-size: 1.5rem;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+
+                #icons{
+                    display: flex;
+                    gap: 0.5rem;
+
+                    i{
+                        background-color: rgb(187, 187, 187 ,0.375);
+                        font-size: 1.4rem;
+                        padding: 0.5rem;
+                        backdrop-filter: blur(10px);
+                        border-radius: 50%;
+                      
+                        gap: 1rem;
+                    
+                        
+                    }
+                }
+            }
+        }
+
+        #foot2{
+            background-color: #292929;
+            border-radius: 0.7rem;
+            padding: 2rem;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            gap: 4rem;
+
+            #content1{
+                font-family: Arial, Helvetica, sans-serif;
+                display: flex;
+                flex-direction: column;
+                gap:1.5rem;
+
+                h3{
+                    font-size: 1.5rem;
+                    text-transform: uppercase;
+                    font-weight: 100;
+                }
+
+                p{
+                  text-transform: uppercase;  
+                  opacity: 0.6;
+                }
+
+                button{
+                    width: fit-content;
+                    background-color: #AD9D49;
+                    border: none;
+                    outline: none;
+                    font-size: 1.1rem;
+                    padding: 1rem 1.5rem;
+                    border-radius: 0.7rem;
+                    text-transform: uppercase;
+                }
+            }
+
+            #content2{
+                 font-family: Arial, Helvetica, sans-serif;
+                display: flex;
+                flex-direction: column;
+                gap:1.5rem;
+
+                h3{
+                    font-size: 1.5rem;
+                    text-transform: uppercase;
+                    font-weight: 100;
+                }
+
+                p{
+                  text-transform: uppercase;  
+                  opacity: 0.6;
+                }
+            }
+
+            #content3{
+                 font-family: Arial, Helvetica, sans-serif;
+                display: flex;
+                flex-direction: column;
+                gap:1.5rem;
+
+                h3{
+                    font-size: 1.5rem;
+                    text-transform: uppercase;
+                    font-weight: 100;
+                }
+
+                p{
+                  text-transform: uppercase;  
+                  opacity: 0.6;
+                }
+            }
+        }
+
+        #foot3{
+            background-color: #292929;
+            padding: 2rem;
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            border-radius: 0.7rem;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        p{
+            opacity: 0.8;
+            word-spacing: 0.5rem;
+            line-height: 1.5;
+            color: rgb(230, 230, 230);
+
+            
+        }
+        span{
+                
+                text-decoration:underline;
+                color: white;
+            }
+
+         h4{
+            word-spacing: 0.5rem;
+
+            i{
+                font-size: 1.5rem;
+                background-color: rgb(187, 187, 187,0.375);
+                padding: 0.5rem;
+                border-radius: 50%;
+            }
+         }   
+    }
 }
 
 
@@ -611,6 +819,7 @@ main {
                     border-radius: 0.7rem;
                     border: none;
                     outline: none;
+                    display: block3;
                     display: block;
                    
                 }
@@ -732,6 +941,30 @@ main {
 
                 padding: 4rem;
                 gap: 10rem;
+            }
+        }
+
+        #miniview{
+
+            #content{
+                padding: min(4rem ,10%);
+
+                #textbttn{
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    h2{
+                        font-size: 5rem;
+                        opacity: 0.9;
+                        font-weight: 100;
+                        width: 70%;
+                    }
+
+                    button{
+                        height: fit-content;
+                        align-self: flex-end;
+                    }
+                }
             }
         }
     }
